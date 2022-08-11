@@ -1,0 +1,14 @@
+<script>
+    function redict(){
+        window.location="http://127.0.0.1:5000/index.html";
+    }
+</script>
+{% for i in file %}
+    <table border="1" onload="redict()">
+        <tr>
+            <td style="width:123px;text-align: center;">{{ i }}</td>
+            <td><a href="index.html?flag={{ i }}"> download </a></td>
+            <td><a href="index.html?read={{ i }}"> read </a></td>
+        </tr>
+    </table>
+{% endfor %}
