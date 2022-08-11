@@ -3,10 +3,14 @@
         window.location="http://127.0.0.1:5000/index.html";
     }
 </script>
+<form action="http://127.0.0.1:5000/index.html" method="POST" enctype="multipart/form-data">
+    <input type="file" name="upload" value="dd" />
+    <input type="submit" name="upload" value="提交" />
+</form>
 {% for i in file %}
     <table border="1" onload="redict()">
         <tr>
-            <td style="width:123px;text-align: center;">{{ i }}</td>
+            <td style="width:321px;text-align: center;">{{ i }}</td>
             <td><a href="index.html?flag={{ i }}"> download </a></td>
             <td><a href="index.html?read={{ i }}"> read </a></td>
         </tr>
