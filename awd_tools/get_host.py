@@ -11,4 +11,3 @@ with open(PATH + '/resources_file/ip_list.txt','r') as f:
         http_url.append(t)
         tt = 'https://{}'.format(t)
         https_url.append(tt)
-
