@@ -1,0 +1,19 @@
+# Nmap 7.80 scan initiated Sat Aug 13 15:56:04 2022 as: nmap -sn -PR -oN a.txt 192.168.1.0/24
+Nmap scan report for 192.168.1.1
+Host is up (0.0020s latency).
+MAC Address: 0C:14:D2:F7:84:E9 (Unknown)
+Nmap scan report for zhen-woQ3s (192.168.1.27)
+Host is up (0.10s latency).
+MAC Address: 48:02:86:2D:ED:93 (Unknown)
+Nmap scan report for meizu-17 (192.168.1.43)
+Host is up (0.029s latency).
+MAC Address: B6:0E:32:8B:FA:8A (Unknown)
+Nmap scan report for Q5-3610 (192.168.1.61)
+Host is up (0.0010s latency).
+MAC Address: 04:5F:A7:B9:36:10 (Shenzhen Yichen Technology Development)
+Nmap scan report for Meizu-E2 (192.168.1.82)
+Host is up (0.011s latency).
+MAC Address: 2C:57:31:39:AF:16 (Wingtech Group (HongKongLimited)
+Nmap scan report for DESKTOP-2SREN7I (192.168.1.202)
+Host is up.
+# Nmap done at Sat Aug 13 15:56:09 2022 -- 256 IP addresses (6 hosts up) scanned in 5.09 seconds
