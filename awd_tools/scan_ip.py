@@ -10,4 +10,4 @@ with open(PATH + '/resources_file/ip_list.txt','w') as f:
             f.write(re.findall(r'[0-9]{0,3}\.[0-9]{0,3}\.[0-9]{0,3}\.[0-9]{0,3}',i)[0] + '\n')
 f.close()
 end_time = time.time()
-print('scan end | spend time >> {}ss'.format(end_time - start_time))
+print('scan end | spend time >> {}s'.format(end_time - start_time))
