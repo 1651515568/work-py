@@ -1,11 +1,11 @@
 <?php
 function write_file_php($file){
-    $code = "<?php include('/var/www/html/watchbird/watchbird.php'); ?>\n";
+    $code = "<?php include('/home/team/workdir/monitor.php'); ?>\n";
     $code = $code.file_get_contents($file);
     file_put_contents($file,$code);
 }
 function getDir($path){
-    $pass_array = array('/var/www/html/watchbird/watchbird.php','/var/www/html/write_config_all.php');
+    $pass_array = array('/home/team/workdir/monitor.php','/home/team/workdir/write_config_all.php');
     if(!file_exists($path)){
         return [];
     }
